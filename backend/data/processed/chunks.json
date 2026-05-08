@@ -1,0 +1,119 @@
+[
+  {
+    "chunk_id": "tenant_001_chunk_0",
+    "parent_id": "tenant_001",
+    "category": "Tenant Rights",
+    "title": "Right to Habitable Premises",
+    "text": "Every tenant has the legal right to a habitable living space. The landlord must maintain the property in a condition fit for human habitation. This includes functioning heating, plumbing, electrical systems, and structural safety. If a landlord fails to maintain habitability, the tenant may withhold rent, repair and deduct, or terminate the lease after written notice.",
+    "chunk_index": 0,
+    "total_chunks": 1
+  },
+  {
+    "chunk_id": "tenant_002_chunk_0",
+    "parent_id": "tenant_002",
+    "category": "Tenant Rights",
+    "title": "Security Deposit Rules",
+    "text": "A landlord may collect a security deposit at the start of tenancy. The deposit must be returned within 14 to 30 days after the tenant vacates, depending on jurisdiction. Deductions are only allowed for unpaid rent or documented property damage beyond normal wear and tear. Landlords must provide an itemized written statement of any deductions.",
+    "chunk_index": 0,
+    "total_chunks": 1
+  },
+  {
+    "chunk_id": "tenant_003_chunk_0",
+    "parent_id": "tenant_003",
+    "category": "Tenant Rights",
+    "title": "Eviction Protections",
+    "text": "A landlord cannot evict a tenant without a valid legal reason such as non-payment of rent, lease violation, or end of lease term. The landlord must provide written notice before filing for eviction. Self-help evictions such as changing locks, removing doors, or shutting off utilities are illegal in most jurisdictions and expose landlords to liability.",
+    "chunk_index": 0,
+    "total_chunks": 1
+  },
+  {
+    "chunk_id": "contract_001_chunk_0",
+    "parent_id": "contract_001",
+    "category": "Contract Law",
+    "title": "Essential Elements of a Valid Contract",
+    "text": "A legally enforceable contract must contain: offer, acceptance, consideration, mutual assent, capacity of parties, and legality of purpose. If any element is missing, the contract may be void or voidable. Consideration means each party must give something of value. Contracts for illegal purposes are automatically void.",
+    "chunk_index": 0,
+    "total_chunks": 1
+  },
+  {
+    "chunk_id": "contract_002_chunk_0",
+    "parent_id": "contract_002",
+    "category": "Contract Law",
+    "title": "Breach of Contract",
+    "text": "A breach of contract occurs when one party fails to fulfill their contractual obligations without legal justification. The non-breaching party may seek remedies including compensatory damages, consequential damages, specific performance, or contract rescission. The injured party has a duty to mitigate losses.",
+    "chunk_index": 0,
+    "total_chunks": 1
+  },
+  {
+    "chunk_id": "contract_003_chunk_0",
+    "parent_id": "contract_003",
+    "category": "Contract Law",
+    "title": "Penalty and Liquidated Damages Clauses",
+    "text": "A liquidated damages clause pre-specifies the compensation owed if a party breaches the contract. Courts will enforce such clauses only if the amount is a reasonable estimate of actual damages and not a penalty. Excessive penalty clauses may be struck down by courts as unenforceable. Always review penalty clauses before signing.",
+    "chunk_index": 0,
+    "total_chunks": 1
+  },
+  {
+    "chunk_id": "consumer_001_chunk_0",
+    "parent_id": "consumer_001",
+    "category": "Consumer Rights",
+    "title": "Right to Refund and Return",
+    "text": "Consumers have the right to a refund for defective goods or services that do not match the described specification. Under consumer protection laws, sellers must offer repair, replacement, or full refund for faulty products within the warranty period. Hidden fees and deceptive pricing practices are prohibited.",
+    "chunk_index": 0,
+    "total_chunks": 1
+  },
+  {
+    "chunk_id": "consumer_002_chunk_0",
+    "parent_id": "consumer_002",
+    "category": "Consumer Rights",
+    "title": "Unfair Trade Practices",
+    "text": "Unfair trade practices include false advertising, bait-and-switch tactics, misleading representations, and failure to honor warranties. Consumers who suffer harm from unfair practices may file complaints with consumer protection agencies and seek compensation. Class action lawsuits are available in cases of widespread harm.",
+    "chunk_index": 0,
+    "total_chunks": 1
+  },
+  {
+    "chunk_id": "employment_001_chunk_0",
+    "parent_id": "employment_001",
+    "category": "Employment Law",
+    "title": "Wrongful Termination",
+    "text": "Wrongful termination occurs when an employer fires an employee in violation of law or contract. Protected reasons include whistleblowing, filing a workers compensation claim, discrimination based on race, gender, religion, or disability. Employees who believe they were wrongfully terminated should document all communications and consult an employment attorney promptly.",
+    "chunk_index": 0,
+    "total_chunks": 1
+  },
+  {
+    "chunk_id": "employment_002_chunk_0",
+    "parent_id": "employment_002",
+    "category": "Employment Law",
+    "title": "Non-Compete Agreements",
+    "text": "A non-compete agreement restricts an employee from working for competitors after leaving a job. Courts assess enforceability based on geographic scope, duration, and legitimate business interest. Overly broad non-compete clauses may be unenforceable. Some jurisdictions have banned non-compete agreements entirely for low-wage workers.",
+    "chunk_index": 0,
+    "total_chunks": 1
+  },
+  {
+    "chunk_id": "fir_001_chunk_0",
+    "parent_id": "fir_001",
+    "category": "Criminal Law",
+    "title": "Filing a First Information Report (FIR)",
+    "text": "An FIR is the first step to set criminal law in motion in India. Any person who has knowledge of a cognizable offence may file an FIR at the nearest police station. The police are legally obligated to register the FIR under Section 154 of the CrPC. Refusing to register an FIR is an offence. If refused, the complainant may approach the Superintendent of Police or a Magistrate.",
+    "chunk_index": 0,
+    "total_chunks": 1
+  },
+  {
+    "chunk_id": "fir_002_chunk_0",
+    "parent_id": "fir_002",
+    "category": "Criminal Law",
+    "title": "Cognizable vs Non-Cognizable Offences",
+    "text": "Cognizable offences are serious crimes (murder, robbery, rape) where police can arrest without a warrant and register an FIR directly. Non-cognizable offences are less serious (assault, cheating, defamation) where police require a court order before investigation. For non-cognizable offences, the complainant must file a complaint before a Magistrate.",
+    "chunk_index": 0,
+    "total_chunks": 1
+  },
+  {
+    "chunk_id": "notice_001_chunk_0",
+    "parent_id": "notice_001",
+    "category": "Legal Notices",
+    "title": "Legal Notice Requirements",
+    "text": "A legal notice is a formal written communication sent before initiating legal action. It must clearly state the sender's identity, the recipient's identity, the facts of the dispute, the legal basis for the claim, the remedy sought, and a deadline for response (typically 15 to 30 days). Legal notices must be sent via registered post or courier with proof of delivery.",
+    "chunk_index": 0,
+    "total_chunks": 1
+  }
+]

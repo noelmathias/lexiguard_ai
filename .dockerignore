@@ -1,0 +1,35 @@
+# Python
+**/__pycache__
+**/*.pyc
+**/*.pyo
+**/*.pyd
+**/.Python
+**/venv
+**/.venv
+**/*.egg-info
+
+# Data — rebuilt inside container or mounted as volumes
+backend/data/index
+backend/data/uploads
+backend/logs
+
+# Dev tools
+**/.env
+**/.env.*
+!.env.docker
+**/node_modules
+frontend/dist
+frontend/.vite
+
+# Git
+.git
+.gitignore
+**/.gitkeep
+
+# Tests
+backend/test_*.py
+backend/evaluation/reports
+
+# Docs
+*.md
+LICENSE

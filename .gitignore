@@ -1,0 +1,12 @@
+venv/
+node_modules/
+__pycache__/
+.env
+.env.local
+.env.*.local
+dist/
+build/
+*.pyc
+*.pyo
+*.pyd
+*.log

@@ -1,0 +1,15 @@
+1. Employment Term
+
+The employee shall work as a Software Engineer beginning from the joining date specified in the agreement.
+
+2. Compensation
+
+The employee shall receive monthly compensation payable on the last working day of every month.
+
+3. Confidentiality
+
+The employee shall not disclose confidential company information during or after employment.
+
+4. Termination
+
+Either party may terminate this agreement with thirty days written notice.

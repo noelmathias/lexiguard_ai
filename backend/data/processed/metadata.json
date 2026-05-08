@@ -1,0 +1,80 @@
+[
+  {
+    "id": "tenant_001",
+    "category": "Tenant Rights",
+    "title": "Right to Habitable Premises",
+    "num_chunks": 1
+  },
+  {
+    "id": "tenant_002",
+    "category": "Tenant Rights",
+    "title": "Security Deposit Rules",
+    "num_chunks": 1
+  },
+  {
+    "id": "tenant_003",
+    "category": "Tenant Rights",
+    "title": "Eviction Protections",
+    "num_chunks": 1
+  },
+  {
+    "id": "contract_001",
+    "category": "Contract Law",
+    "title": "Essential Elements of a Valid Contract",
+    "num_chunks": 1
+  },
+  {
+    "id": "contract_002",
+    "category": "Contract Law",
+    "title": "Breach of Contract",
+    "num_chunks": 1
+  },
+  {
+    "id": "contract_003",
+    "category": "Contract Law",
+    "title": "Penalty and Liquidated Damages Clauses",
+    "num_chunks": 1
+  },
+  {
+    "id": "consumer_001",
+    "category": "Consumer Rights",
+    "title": "Right to Refund and Return",
+    "num_chunks": 1
+  },
+  {
+    "id": "consumer_002",
+    "category": "Consumer Rights",
+    "title": "Unfair Trade Practices",
+    "num_chunks": 1
+  },
+  {
+    "id": "employment_001",
+    "category": "Employment Law",
+    "title": "Wrongful Termination",
+    "num_chunks": 1
+  },
+  {
+    "id": "employment_002",
+    "category": "Employment Law",
+    "title": "Non-Compete Agreements",
+    "num_chunks": 1
+  },
+  {
+    "id": "fir_001",
+    "category": "Criminal Law",
+    "title": "Filing a First Information Report (FIR)",
+    "num_chunks": 1
+  },
+  {
+    "id": "fir_002",
+    "category": "Criminal Law",
+    "title": "Cognizable vs Non-Cognizable Offences",
+    "num_chunks": 1
+  },
+  {
+    "id": "notice_001",
+    "category": "Legal Notices",
+    "title": "Legal Notice Requirements",
+    "num_chunks": 1
+  }
+]
