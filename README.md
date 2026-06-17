@@ -1,395 +1,85 @@
-⚖️ LexAI — Agentic Legal Intelligence System
-
-Production-grade AI Legal Intelligence Platform powered by Multi-Agent AI, Hybrid RAG, and Local LLM Inference.
-
-
-
-
-
-
-
-
-
-
-
-🚀 Overview
-
-LexAI is an end-to-end AI-powered Legal Intelligence Platform designed to provide legal guidance, contract analysis, risk assessment, document generation, and legal reasoning using a multi-agent architecture.
-
-Unlike traditional chatbots that rely on a single prompt-response workflow, LexAI combines:
-
-
-
-Multi-Agent Orchestration
-
-Hybrid Retrieval-Augmented Generation (RAG)
-
-Local LLM Inference via Ollama
-
-Contract Intelligence Pipelines
-
-Legal Risk Scoring
-
-AI-Powered Document Generation
-
-The system is designed with production-style architecture using FastAPI, React, and modular AI pipelines.
-
-✨ Key Features
-
-🤖 Multi-Agent Legal Reasoning
-
-Intent Classification
-
-Entity Extraction
-
-Query Rewriting
-
-Legal Reasoning & Guidance Generation
-
-📚 Hybrid RAG Pipeline
-
-FAISS Dense Vector Search
-
-BM25 Sparse Keyword Retrieval
-
-Reciprocal Rank Fusion (RRF)
-
-Context Re-ranking
-
-📄 Contract Intelligence
-
-Contract Analysis
-
-Clause Extraction
-
-Risk Classification
-
-Contract Comparison
-
-Risk Scoring
-
-📝 Legal Document Generation
-
-Generate:
-
-
-
-FIR Drafts
-
-Complaint Letters
-
-Legal Notices
-
-Formal Legal Documents
-
-🛡️ AI Safety & Reliability
-
-Guardrail Enforcement
-
-Confidence Scoring
-
-Risk Scoring
-
-Structured Response Validation
-
-Hallucination Mitigation
-
-🏗️ System Architecture
-
-User Query
-
-    │
-
-    ▼
-
-Hybrid Retrieval Layer
-
-(FAISS + BM25 + RRF)
-
-    │
-
-    ▼
-
-Multi-Agent Pipeline
-
- ├─ Intent Classification
-
- ├─ Entity Extraction
-
- ├─ Query Rewriting
-
- └─ Legal Reasoning
-
-    │
-
-    ▼
-
-Risk & Confidence Scoring
-
-    │
-
-    ▼
-
-Structured Legal Response
-
-🛠️ Tech Stack
-
-Frontend
-
-React.js
-
-Vite
-
-JavaScript
-
-CSS
-
-Backend
-
-FastAPI
-
-Python
-
-Pydantic
-
-AI & Retrieval
-
-Ollama
-
-Qwen2.5
-
-FAISS
-
-BM25
-
-Sentence Transformers
-
-Hybrid RAG
-
-Deployment
-
-Vercel
-
-ngrok
-
-GitHub
-
-📂 Project Structure
-
-LEXIGUARD_AI/
-
-│
-
-├── backend/
-
-│   ├── api/
-
-│   ├── core/
-
-│   ├── models/
-
-│   ├── utils/
-
-│   ├── evaluation/
-
-│   ├── data_pipeline/
-
-│   ├── main.py
-
-│   └── requirements.txt
-
-│
-
-├── frontend/
-
-│   ├── src/
-
-│   ├── public/
-
-│   ├── pages/
-
-│   ├── components/
-
-│   └── package.json
-
-│
-
-└── README.md
-
-🔍 Core Functionalities
-
-Legal Assistant
-
-Ask legal questions and receive contextual responses powered by Hybrid RAG and local LLM inference.
-
-
-
-Contract Analysis
-
-Upload contracts and receive:
-
-
-
-Clause Analysis
-
-Risk Assessment
-
-Confidence Scores
-
-Actionable Guidance
-
-Contract Comparison
-
-Compare two legal documents and identify:
-
-
-
-Clause Differences
-
-Risk Variations
-
-Missing Provisions
-
-Document Generation
-
-Generate structured legal documents using AI-powered templates and reasoning workflows.
-
-📈 Engineering Highlights
-
-Built a production-grade multi-agent orchestration pipeline.
-
-Implemented Hybrid RAG using FAISS + BM25 + Reciprocal Rank Fusion.
-
-Designed modular FastAPI architecture with reusable services.
-
-Integrated local LLM inference using Ollama and Qwen2.5.
-
-Implemented rule-based Risk & Confidence Scoring pipelines.
-
-Added guardrail enforcement and hallucination mitigation mechanisms.
-
-Developed end-to-end deployment workflow with Vercel and secure backend tunneling.
-
-⚙️ Local Setup
-
-Backend
-
-cd backend
-
-
-
-pip install -r requirements.txt
-
-
-
-uvicorn main:app --host 0.0.0.0 --port 8000 --reload
-
-Ollama
-
-ollama serve
-
-
-
-ollama pull qwen2.5:3b
-
-Frontend
-
-cd frontend
-
-
-
-npm install
-
-
-
-npm run dev
-
-🌐 Deployment
-
-Frontend
-
-Vercel
-
-Backend
-
-FastAPI
-
-Ollama
-
-ngrok tunnel
-
-Future production deployment:
-
-
-
-AWS EC2
-
-Docker Compose
-
-Nginx Reverse Proxy
-
-HTTPS via Let's Encrypt
-
-🎯 Resume Highlights
-
-Multi-Agent AI Systems
-
-Hybrid Retrieval-Augmented Generation
-
-FastAPI Backend Engineering
-
-Local LLM Deployment with Ollama
-
-Contract Intelligence Systems
-
-Full-Stack AI Engineering
-
-AI Safety & Guardrails
-
-Production Deployment Workflows
-
-🔮 Future Enhancements
-
-Persistent Workspace Storage
-
-User Authentication
-
-AWS EC2 Production Deployment
-
-Dockerized Infrastructure
-
-Streaming Responses
-
-Advanced Evaluation Framework
-
-Multi-Model Support
-
-👨‍💻 Author
-
-Noel Mathias
-
-Computer Science (AI & ML) Student
-
-Interested in:
-
-
-
-Artificial Intelligence
-
-Machine Learning
-
-Generative AI
-
-Agentic AI Systems
-
-Full-Stack AI Engineering
-
-⭐ If you found this project interesting, consider starring the repository.
-
-
-
-
-
-
-
-i need this in README.md format to put it in github
+# ⚖️ LexAI — Agentic Legal Intelligence System
+
+> **Production-grade AI Legal Intelligence Platform powered by Multi-Agent AI, Hybrid RAG, and Local LLM Inference.**
+
+---
+
+## 🚀 Overview
+
+LexAI is an end-to-end AI-powered Legal Intelligence Platform designed to provide legal guidance, contract analysis, risk assessment, document generation, and legal reasoning using a multi-agent architecture. 
+
+Unlike traditional chatbots that rely on a single prompt-response workflow, LexAI combines decentralized agent orchestration, hybrid information retrieval, and local inference to build a robust, secure legal assistant.
+
+### Key Architectural Pillars
+*   **Multi-Agent Orchestration:** Task-specific agents collaborating to unpack complex legal queries.
+*   **Hybrid Retrieval-Augmented Generation (RAG):** Merging dense semantic search with sparse keyword matching.
+*   **Local LLM Inference:** Powered via Ollama for extreme data privacy and zero API dependency costs.
+*   **Contract Intelligence Pipelines:** Extracting and assessing risk profiles directly from legal documents.
+*   **Legal Risk Scoring:** Algorithmic confidence and threat-level assessments.
+
+The system is engineered with a production-ready decoupled architecture using **FastAPI** for the backend and **React.js** for the user interface.
+
+---
+
+## ✨ Key Features
+
+### 🤖 Multi-Agent Legal Reasoning
+*   **Intent Classification:** Dynamically routes user queries to the correct specialized domain workflow.
+*   **Entity Extraction:** Automatically parses critical metadata like dates, parties, jurisdictions, and financial obligations.
+*   **Query Rewriting:** Optimizes raw user language into high-yield search queries for vector and keyword engines.
+*   **Legal Reasoning & Guidance:** Combines multi-agent insights to formulate structured legal guidance.
+
+### 📚 Hybrid RAG Pipeline
+*   **FAISS Dense Vector Search:** Captures contextual and semantic meaning using sentence transformers.
+*   **BM25 Sparse Keyword Retrieval:** Ensures precision matching for exact legal terminology, citation numbers, and statutes.
+*   **Reciprocal Rank Fusion (RRF):** Blends vector and keyword results algorithmically for optimized context ranking.
+*   **Context Re-ranking:** Pinpoints and surfaces the most critical legal clauses to minimize prompt noise.
+
+### 📄 Contract Intelligence
+*   **Contract Analysis:** Upload complex legal documents for instantaneous breakdowns.
+*   **Clause Extraction:** Automatically isolates individual provisions (e.g., Indemnification, Termination).
+*   **Risk Classification:** Categorizes identified clause vulnerabilities into clear high, medium, and low tiers.
+*   **Contract Comparison:** Side-by-side analysis mapping clause variations, missing protections, and liability shifts.
+
+### 📝 Legal Document Generation
+Automated, template-driven generation of formal, structured legal drafts utilizing AI reasoning workflows:
+*   FIR Drafts
+*   Complaint Letters
+*   Legal Notices
+*   Formal Legal Documents
+
+### 🛡️ AI Safety & Reliability
+*   **Guardrail Enforcement:** Strict operational parameters to prevent toxic or out-of-bounds agent behavior.
+*   **Confidence & Risk Scoring:** Real-time mathematical scores calculating data reliability and underlying risk profiles.
+*   **Structured Response Validation:** Enforces strict output data shapes using Pydantic.
+*   **Hallucination Mitigation:** Grounding mechanism requiring explicit source verification before generating answers.
+
+---
+
+## 🏗️ System Architecture
+
+```text
+       User Query
+           │
+           ▼
+ ┌───────────────────────────────────┐
+ │       Hybrid Retrieval Layer      │
+ │    (FAISS + BM25 + RRF Fusion)    │
+ └─────────────────┬─────────────────┘
+                   │
+                   ▼
+ ┌───────────────────────────────────┐
+ │       Multi-Agent Pipeline        │
+ │  ├─ Intent Classification         │
+ │  ├─ Entity Extraction             │
+ │  ├─ Query Rewriting               │
+ │  └─ Legal Reasoning               │
+ └─────────────────┬─────────────────┘
+                   │
+                   ▼
+ ┌───────────────────────────────────┐
+ │     Risk & Confidence Scoring     │
+ └─────────────────┬─────────────────┘
+                   │
+                   ▼
+       Structured Legal Response
