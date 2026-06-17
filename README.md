@@ -99,3 +99,29 @@ Automated, template-driven generation of formal, structured legal drafts utilizi
 | **AI & Retrieval** | Embeddings | Sentence Transformers |
 | **Deployment & Dev** | Hosting & Proxy | Vercel (Frontend), ngrok (Secure Tunneling) |
 | **Deployment & Dev** | Version Control | GitHub |
+
+
+## 📂 Project Structure
+
+```text
+LEXIGUARD_AI/
+│
+├── backend/
+│   ├── api/             # API routes, endpoint controllers, and request handling
+│   ├── core/            # Core agent orchestrators, configurations, and LLM managers
+│   ├── models/          # Pydantic validation schemas and data models
+│   ├── utils/           # Helper scripts, mathematical scoring tools, and prompt templates
+│   ├── evaluation/      # RAG quality and agent performance tracking
+│   ├── data_pipeline/   # Ingestion, document parsing, and chunking mechanics
+│   ├── main.py          # FastAPI application entrypoint
+│   └── requirements.txt # Python dependencies
+│
+├── frontend/
+│   ├── src/             # React views, custom hooks, and state management
+│   ├── public/          # Static assets and icons
+│   ├── pages/           # Parent application pages (Dashboard, Analysis, Compare)
+│   ├── components/      # Reusable UI elements (Buttons, Loaders, Layouts)
+│   └── package.json     # Node.js dependencies
+│
+└── README.md
+```
