@@ -125,3 +125,35 @@ LEXIGUARD_AI/
 │
 └── README.md
 ```
+
+## 🔍 Core Functionalities
+
+### 1. Legal Assistant
+Engage with an AI legal expert. Ask complex queries and receive contextual, statutory-grounded responses driven by `Qwen2.5` and the hybrid RAG architecture.
+
+### 2. Contract Analysis
+Drop legal documents directly into the portal to review actionable insights:
+* **Granular Clause-by-Clause Analysis:** Breaks down long legal text into readable, structured segments.
+* **Automated Risk Classification Metrics:** Categorizes potential vulnerabilities to catch unfavorable terms early.
+* **Algorithmic Confidence Scores:** Offers transparent visibility into model validation certainty.
+
+### 3. Contract Comparison
+Upload two contrasting contracts to run differential comparisons instantly, highlighting:
+* Clause differences and subtle language drift.
+* Risk profile variations across mirroring sections.
+* Missing provisions or critical protections overlooked in recent revisions.
+
+### 4. Document Generation
+Generate professional, ready-to-file legal documentation tailored to specific contexts using robust, pre-formatted legal templates.
+
+---
+
+## 📈 Engineering Highlights
+
+* **Production-Grade Multi-Agent System:** Engineered a decoupled orchestration framework that organizes AI workflows into distinct intent, extraction, and reasoning components.
+* **Advanced Fusion Retrieval:** Implemented Reciprocal Rank Fusion (RRF) to seamlessly merge dense embedding spaces with exact keyword indexes, yielding high-context precision.
+* **Modular FastAPI Architecture:** Built a performant, asynchronous backend pattern keeping services, routes, and logic highly isolated and maintainable.
+* **Zero-Cost Local Inference:** Successfully containerized and integrated `Ollama` running `Qwen2.5` locally, removing commercial API bottlenecks while maintaining absolute contract data privacy.
+* **Deterministic Safety Layers:** Programmed mathematical verification layers mapping confidence scores to prevent hallucinated outputs across sensitive document types.
+
+* 
