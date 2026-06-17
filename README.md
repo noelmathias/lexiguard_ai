@@ -89,12 +89,12 @@ Automated, template-driven generation of formal, structured legal drafts utilizi
 | Layer | Component | Technologies Used |
 | :--- | :--- | :--- |
 | **Frontend** | Framework & Build Tool | React.js, Vite |
-| | Language & Styling | JavaScript, CSS3 |
+| **Frontend** | Language & Styling | JavaScript, CSS3 |
 | **Backend** | API Framework | FastAPI (Python) |
-| | Data Validation | Pydantic |
+| **Backend** | Data Validation | Pydantic |
 | **AI & Retrieval** | Local LLM Engine | Ollama (`Qwen2.5`) |
-| | Vector Database | FAISS |
-| | Keyword Matcher | BM25 |
-| | Embeddings | Sentence Transformers |
+| **AI & Retrieval** | Vector Database | FAISS |
+| **AI & Retrieval** | Keyword Matcher | BM25 |
+| **AI & Retrieval** | Embeddings | Sentence Transformers |
 | **Deployment & Dev** | Hosting & Proxy | Vercel (Frontend), ngrok (Secure Tunneling) |
-| | Version Control | GitHub |
+| **Deployment & Dev** | Version Control | GitHub |
