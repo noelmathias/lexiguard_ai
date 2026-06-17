@@ -163,3 +163,10 @@ Navigate to the backend directory and set up your Python environment:
 ```bash
 cd backend
 pip install -r requirements.txt
+```
+Boot up the local FastAPI development server:
+
+```Bash
+uvicorn main:app --host 0.0.0.0 --port 8000 --reload
+```
+
