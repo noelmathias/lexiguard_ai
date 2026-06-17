@@ -83,3 +83,19 @@ Automated, template-driven generation of formal, structured legal drafts utilizi
                    │
                    ▼
        Structured Legal Response
+
+
+## 🛠️ Tech Stack
+
+| Layer | Component | Technologies Used |
+| :--- | :--- | :--- |
+| 💻 **Frontend** | Framework & Build | React.js, Vite |
+| | Language & Styling | JavaScript, CSS3 |
+| ⚙️ **Backend** | Framework | FastAPI (Python) |
+| | Data Validation | Pydantic |
+| 🤖 **AI & Retrieval** | Local LLM Engine | Ollama (`Qwen2.5`) |
+| | Vector Database | FAISS |
+| | Keyword Matcher | BM25 |
+| | Embeddings | Sentence Transformers |
+| 🌐 **Deployment & Dev**| Hosting & Pipelines | Vercel (Frontend), ngrok (Secure Tunneling) |
+| | Version Control | GitHub |
