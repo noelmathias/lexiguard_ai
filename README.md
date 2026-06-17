@@ -156,4 +156,10 @@ Generate professional, ready-to-file legal documentation tailored to specific co
 * **Zero-Cost Local Inference:** Successfully containerized and integrated `Ollama` running `Qwen2.5` locally, removing commercial API bottlenecks while maintaining absolute contract data privacy.
 * **Deterministic Safety Layers:** Programmed mathematical verification layers mapping confidence scores to prevent hallucinated outputs across sensitive document types.
 
-* 
+## ⚙️ Local Setup
+
+### 1. Backend & Model Engine
+Navigate to the backend directory and set up your Python environment:
+```bash
+cd backend
+pip install -r requirements.txt
