@@ -83,6 +83,7 @@ Automated, template-driven generation of formal, structured legal drafts utilizi
                    │
                    ▼
        Structured Legal Response
+```
 
 ## 🛠️ Tech Stack
 
