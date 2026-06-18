@@ -170,14 +170,14 @@ Boot up the local FastAPI development server:
 uvicorn main:app --host 0.0.0.0 --port 8000 --reload
 ```
 Ensure Ollama is running and download the necessary base model in a separate terminal tab:
-
-Bash
-# Start the Ollama service runtime
+Start the Ollama service runtime
+```Bash
 ollama serve
-
-# Pull the Qwen2.5 3B model
+```
+Pull the Qwen2.5 3B model
+```bash
 ollama pull qwen2.5:3b
-
+```
 ### 2. Frontend Development
 Open a new terminal tab and navigate to the frontend directory:
 ```bash
