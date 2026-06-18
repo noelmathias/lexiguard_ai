@@ -104,26 +104,22 @@ Automated, template-driven generation of formal, structured legal drafts utilizi
 ## 📂 Project Structure
 
 ```text
-LEXIGUARD_AI/
+LEGAL_INTELLIGENCE_SYSTEM/
 │
-├── backend/
-│   ├── api/             # API routes, endpoint controllers, and request handling
-│   ├── core/            # Core agent orchestrators, configurations, and LLM managers
-│   ├── models/          # Pydantic validation schemas and data models
-│   ├── utils/           # Helper scripts, mathematical scoring tools, and prompt templates
-│   ├── evaluation/      # RAG quality and agent performance tracking
-│   ├── data_pipeline/   # Ingestion, document parsing, and chunking mechanics
-│   ├── main.py          # FastAPI application entrypoint
-│   └── requirements.txt # Python dependencies
+├── backend/               # FastAPI application layer (Agents, RAG, API)
+├── docker/                # Isolated environment configurations & Dockerfiles
+├── frontend/              # React.js UI layer (Vite-powered Dashboard)
+├── venv/                  # Local Python virtual environment (Git-ignored)
 │
-├── frontend/
-│   ├── src/             # React views, custom hooks, and state management
-│   ├── public/          # Static assets and icons
-│   ├── pages/           # Parent application pages (Dashboard, Analysis, Compare)
-│   ├── components/      # Reusable UI elements (Buttons, Loaders, Layouts)
-│   └── package.json     # Node.js dependencies
-│
-└── README.md
+├── .dockerignore          # Prevents heavy local builds from entering Docker context
+├── .env.example           # Public environment template for local configuration
+├── .gitignore             # Dictates which files Git should completely ignore
+├── Makefile               # Automation shortcuts (e.g., build, run, test)
+├── README.md              # Core project documentation
+├── docker-compose.yml     # Local multi-container development orchestration
+├── docker-compose.prod.yml# Production-hardened container infrastructure stack
+├── package.json           # Root task automation and package scripts
+└── package-lock.json      # Strict dependency tree lockfile
 ```
 
 ## 🔍 Core Functionalities
