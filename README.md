@@ -169,4 +169,75 @@ Boot up the local FastAPI development server:
 ```Bash
 uvicorn main:app --host 0.0.0.0 --port 8000 --reload
 ```
+Ensure Ollama is running and download the necessary base model in a separate terminal tab:
 
+Bash
+# Start the Ollama service runtime
+ollama serve
+
+# Pull the Qwen2.5 3B model
+ollama pull qwen2.5:3b
+
+### 2. Frontend Development
+Open a new terminal tab and navigate to the frontend directory:
+```bash
+cd frontend
+```
+Install the necessary node modules and spin up the Vite development server:
+
+# Install project dependencies
+```bash
+npm install
+```
+# Start the local development server
+```bash
+npm run dev
+```
+
+## 🌐 Deployment Configuration
+
+### Current Architecture
+* **Frontend UI:** Deployed on **Vercel** for fast edge distribution.
+* **Backend Server:** Hosted locally and securely exposed to Vercel instances via an **ngrok tunnel**, minimizing configuration costs while testing live systems.
+
+### 🔮 Future Production Roadmap
+To transition LexAI out of development, the target infrastructure plan includes:
+* **AWS EC2:** Hosting the core FastAPI application and underlying vector indexes on high-availability compute layers.
+* **Docker Compose:** Multi-container orchestration separating the Web API, the vector store, and the Ollama service runtime.
+* **Nginx Reverse Proxy:** Acting as an internet facing gateway handling load balancing and request routing.
+* **Let's Encrypt:** Automated TLS configuration for enforcing system-wide HTTPS.
+
+---
+
+## 🎯 Resume Highlights
+
+* Multi-Agent AI Architecture & Orchestration
+* Hybrid Retrieval-Augmented Generation (RAG) Systems
+* Production-Ready FastAPI Backend Engineering
+* Local LLM Performance Optimization & Ollama Operations
+* Contract Intelligence & Risk Assessment Pipelines
+* Full-Stack AI Software Engineering
+* AI Safety, Deterministic Guardrails, & System Reliability
+* Cloud Infrastructure, Docker, & Deployment Workflows
+
+---
+
+## 🔮 Future Enhancements
+
+- [ ] **Persistent Workspace Storage:** Save past chats, uploaded agreements, and drafts directly to a database.
+- [ ] **User Authentication:** Enterprise-ready user access via JWT/OAuth2 mechanisms.
+- [ ] **Production Cloud Infrastructure:** Transition from tunnels to automated AWS EC2 and Docker deployments.
+- [ ] **Streaming Responses:** Implement Server-Sent Events (SSE) for low-latency, real-time message streaming.
+- [ ] **Advanced Evaluation Framework:** Integrate objective testing platforms (like Ragas or TruLens) to mathematically track precision and factual recall.
+- [ ] **Multi-Model Support:** Add fallback support for alternative open-weights models (e.g., Llama 3, Mistral).
+
+---
+
+## 👨‍💻 Author
+
+**Noel Mathias** *Computer Science (AI & ML) Student*
+
+* **Core Focus Areas:** Artificial Intelligence, Machine Learning, Generative/Agentic Systems, and Full-Stack AI Engineering.
+
+---
+* If you find this legal intelligence project interesting, consider starring this repository!* ⭐
