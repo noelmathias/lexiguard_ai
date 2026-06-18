@@ -185,11 +185,11 @@ cd frontend
 ```
 Install the necessary node modules and spin up the Vite development server:
 
-# Install project dependencies
+Install project dependencies
 ```bash
 npm install
 ```
-# Start the local development server
+Start the local development server
 ```bash
 npm run dev
 ```
@@ -235,7 +235,8 @@ To transition LexAI out of development, the target infrastructure plan includes:
 
 ## 👨‍💻 Author
 
-**Noel Mathias** *Computer Science (AI & ML) Student*
+**Noel Mathias** 
+*Computer Science (AI & ML) Student*
 
 * **Core Focus Areas:** Artificial Intelligence, Machine Learning, Generative/Agentic Systems, and Full-Stack AI Engineering.
 
