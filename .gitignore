@@ -10,3 +10,4 @@ build/
 *.pyo
 *.pyd
 *.log
+.env.docker
